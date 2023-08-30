@@ -1,9 +1,5 @@
-# Ask user for their name
-name = input("What's your name? ")
-
-# Remove whitespace from str and capilative user's name
-name = name.strip().title()
-
+# Ask user for their name and Removes whitespace from str and capilative user's name
+name = input("What's your name? ").strip().title()
 
 # Say hello to user
 print(f"hello, {name}")
